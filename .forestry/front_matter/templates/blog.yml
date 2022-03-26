@@ -50,3 +50,5 @@ fields:
       file: 
       path: 
   label: Kategori
+pages:
+- content/dags-att-fornya-medlemsskapet.md
