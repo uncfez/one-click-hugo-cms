@@ -2,7 +2,6 @@
 authors = "Ninetail"
 categories = "Föreningsinformation"
 date = 2022-02-19T23:00:00Z
-draft = true
 tags = []
 title = "Dags att förnya medlemsskapet"
 
