@@ -1,4 +1,52 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: date
+  type: datetime
+  label: Publiceringsdatum
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tag
+- name: authors
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - linkaz
+    - Ninetail
+    - UncleFester
+    - KLC2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Författare
+- name: categories
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Föreningsinformation
+    - Event
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Kategori
